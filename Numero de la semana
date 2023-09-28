@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main (){
+    int opc=0;
+    cout<<"Dado un numero ingresado te dire el dia de la semana"<<endl;
+    cin>>opc;
+    switch(opc){
+        case 1:cout<<"El dia es domingo";
+        break;
+        case 2:cout<<"El dia es lunes";
+        break;
+        case 3:cout<<"El dia es martes";
+        break;
+        case 4:cout<<"El dia es miercoles";
+        break;
+        case 5:cout<<"El dia es jueves";
+        break;
+        case 6:cout<<"El dia es viernes";
+        break;
+        case 7:cout<<"El dia es sabado";
+        break;
+        default:cout<<"El dia no existe";
+        
+    }
+}
