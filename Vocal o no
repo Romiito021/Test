@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    char l=' ';//Donde L captura el teclado
+    cout<<"Ingresa un caracter: ";
+    cin>>l;
+    if(l=='a'||l=='e'||l=='i'||l=='o'||l=='u'||l=='A'||l=='E'||l=='I'||l=='O'||l=='U')
+        {cout<<l<<"  es una vocal";
+        }else{cout<<l<<" no es una vocal";
+        }
+}
